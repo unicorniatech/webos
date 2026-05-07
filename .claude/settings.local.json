@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Read(//c/c/Users/molie/VistaDev/WebOS/**)"
+    ]
+  }
+}
