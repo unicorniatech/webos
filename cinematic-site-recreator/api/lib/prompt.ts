@@ -1,4 +1,4 @@
-import type { ScrapedPage } from './types'
+import type { ScrapedPage } from './types.js'
 
 export const SYSTEM_PROMPT = `You are a senior brand analyst, UX strategist, and creative director.
 Return ONLY a valid JSON object matching the schema exactly. No markdown, no explanation.

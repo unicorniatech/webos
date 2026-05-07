@@ -1,6 +1,6 @@
 import OpenAI from 'openai'
-import type { ScrapedPage, AnalysisResult } from './types'
-import { SYSTEM_PROMPT, buildPrompt } from './prompt'
+import type { ScrapedPage, AnalysisResult } from './types.js'
+import { SYSTEM_PROMPT, buildPrompt } from './prompt.js'
 
 export async function analyzeWithOpenAI(page: ScrapedPage): Promise<AnalysisResult> {
   const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })

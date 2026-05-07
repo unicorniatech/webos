@@ -1,8 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { scrapePage } from './lib/scraper'
-import { analyzeWithClaude } from './lib/claude'
-import { analyzeWithOpenAI } from './lib/openai'
-import { generateMockResult } from './lib/mock'
+import { scrapePage } from './lib/scraper.js'
+import { analyzeWithClaude } from './lib/claude.js'
+import { analyzeWithOpenAI } from './lib/openai.js'
+import { generateMockResult } from './lib/mock.js'
 
 export const maxDuration = 60
 
