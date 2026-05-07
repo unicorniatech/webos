@@ -1,4 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
+
+export const maxDuration = 60 // requires Vercel Pro — remove if on hobby plan
 import { scrapePage } from '../src/server/scraper'
 import { analyzeWithClaude } from '../src/server/claude'
 import { analyzeWithOpenAI } from '../src/server/openai'
